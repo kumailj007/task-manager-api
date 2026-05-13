@@ -117,4 +117,4 @@ All 7 integration tests should pass, covering health checks, CRUD operations, fi
 
 ## Author
 
-**Kumail Janjua** — BSc Computer Science, Graduate 2026
+**Kumail Janjua** 
