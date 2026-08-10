@@ -9,7 +9,7 @@ Combines:
 Keeping them in one module makes the domain easy to navigate.
 """
 
-from datetime import datetime
+from datetime import datetime, timezone
 from enum import Enum
 from typing import Optional
 
