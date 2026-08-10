@@ -37,7 +37,7 @@ class TaskORM(Base):
     description = Column(String(500), nullable=True)
     priority = Column(String(10), nullable=False, default="medium")
     completed = Column(Boolean, nullable=False, default=False)
-    created_at = Column(DateTime, nullable=False, default=datetime.utcnow)
+    created_at = Column(DateTime, nullable=False, default=lambda: datetime.now(timezone.utc))
 
 
 # ---------- API schemas ----------
